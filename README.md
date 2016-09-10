@@ -25,6 +25,9 @@ cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 
 **scale it, kill it**
 
+**TBD**
+- [ ] need to provision a database for the CloudBrews environment.  You were out of database instances.
+
 **after binding a db to it**
 ```
 cf restage attendees
