@@ -84,9 +84,18 @@ Switch to V2 of the application
 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute4.png "Get the V1's route") 
 
+Map a new route by pasting in the route you copied from V1 of the app, and click the map button as shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute5.png "Get the V1's route") 
 
-Map a new route by pasting in the route you copied from V1 of the app, and click the map button as shown below:
+Return to the application window in the browser and start the simulation.  This will show the load is being balanced between the two versions of the application. 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute6.png "Get the V1's route") 
 
-**copy the route from V1 to V2, scale down V1**
+##Scale down V1 of the application
+When you are satisfied that V2 of the application is running correctly we can stop V1 of the application gracefully.   In this case we are simply going to stop it, but in real life we would scale it down gracefully.
+```
+cf stop attendees
+```  
+
+## Congradulations
+Congratulations you pushed a sample application to Pivotal Cloud Foundry, Scaled it up, and upgraded it to V2 by using Blue/Green deploymnet.  Talk to the helper at the station to see what's next!
+
