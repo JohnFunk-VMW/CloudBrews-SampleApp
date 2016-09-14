@@ -105,3 +105,6 @@ cf stop attendees
 
 ## Congratulations
 Congratulations you pushed a sample application to Pivotal Cloud Foundry, Scaled it up, and upgraded it to V2 by using Blue/Green deployment.  Talk to the helper at the station to see what's next!
+
+## Feedback
+Please give us feedback on this exercise: http://pivotal.DSUW.sgizmo.com/s3/?station=3
