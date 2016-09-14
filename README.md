@@ -42,12 +42,24 @@ Open cloud foundry in a browser by visiting:  http://run.pivotal.io
 First click on the 'Denver-CloudBrews' space as shown below:
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
-Next click on the link under the ROUTE lable as shown below:
+Next click on the name of the "attendees" app shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundryApps.png "Apps view on PCF") 
 
+Then click on the "View App" link as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundryViewApp.png "Apps view on PCF") 
+
+This will take you to the sample app.  Once in the app click on the "basic" link as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen1.png "Run the basic app") 
+
+This sample app has a built in load test.  To run it click on the "Start Load Test" link as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen2.png "Start the load test") 
  
-## View the sample application in a browser
-Open the following link in a browser: http://run.pivotal.io
+## Scale the App
+Next you will scale the application up, to do that go back to the Pivotal Cloud Foundry window in the browser and scale the app as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen3.png "Scale the App on PCF") 
+
+Then return to the application tab in the browser and look at the load test.  It should show you are running 2 instances of the app. 
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen3.png "Scale the App on PCF") 
 
 **scale it, kill it**
 
