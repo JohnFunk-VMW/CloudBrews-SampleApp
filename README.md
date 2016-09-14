@@ -33,6 +33,16 @@ cf login -a api.run.pivotal.io -u demo3@johnfunk.com -o Channel -s Denver-CloudB
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 ```
 
+## Login to Cloud Foundry
+Open cloud foundry in a browser by visiting:  http://run.pivotal.io  
+   *username: demo3@johnfunk.com  
+   *password:  ask one of the helpers  
+
+ 
+ 
+## View the sample application in a browser
+Open the following link in a browser: http://run.pivotal.io
+
 **scale it, kill it**
 
 **TBD**
