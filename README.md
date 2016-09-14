@@ -96,6 +96,6 @@ When you are satisfied that V2 of the application is running correctly we can st
 cf stop attendees
 ```  
 
-## Congradulations
+## Congratulations
 Congratulations you pushed a sample application to Pivotal Cloud Foundry, Scaled it up, and upgraded it to V2 by using Blue/Green deploymnet.  Talk to the helper at the station to see what's next!
 
