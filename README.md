@@ -1,4 +1,4 @@
-## Station 3 - Sample App
+# Station 3 - Sample App
 
 ##Introduction
 In this excercise you will work with an already compleated sample applicaitons to learn more about cloud foundry.   Using the pre-built sample app you will do the following:  
