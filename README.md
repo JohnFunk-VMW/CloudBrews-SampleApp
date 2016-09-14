@@ -76,9 +76,17 @@ The next step is to map a route in Pivotal Cloud Foundry's load balancer to poin
 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
 
-![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
+Copy the route to the clipboard as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute2.png "Get the V1's route") 
 
-![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
+Switch to V2 of the application
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute3.png "Get the V1's route") 
 
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute4.png "Get the V1's route") 
+
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute5.png "Get the V1's route") 
+
+Map a new route by pasting in the route you copied from V1 of the app, and click the map button as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute6.png "Get the V1's route") 
 
 **copy the route from V1 to V2, scale down V1**
