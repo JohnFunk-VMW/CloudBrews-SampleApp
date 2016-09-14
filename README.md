@@ -1,25 +1,35 @@
-# CloudBrews-SampleApp
+## Station 3 - Sample App
 
-**Setup**
-Start by making a directory and changing into it
+##Introduction
+In this excercise you will work with an already compleated sample applicaitons to learn more about cloud foundry.   Using the pre-built sample app you will do the following:  
+  * Push the applicaiton to Pivotal Cloud Foundry
+  * Scale the applicaiton so there are multiple instances running, and see how this make it fault tollerant
+  * Make the app adhear to the 12 Factor design methodology by making the app store its state in a backing store rather than keeping it in the application context.
+  * Blue-Green deploy a second copy of the applicaiton, by winding up instances of the new version, while winding down instances of the old version.
 
+## Setup
+Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it. 
 ```
+cd ~
+rm -rf sampleapp
 mkdir sampleapp
 cd sampleapp
 ```
 
-**download the project**
+## Download the sample applicaiton from Github
 ```
 git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 ```
 
-**build the project**
+
+##Build the project
 ```
 mvn install
 ```
 
-**push it to pcf**
+##Push the sample application to pcf
 ```
+cf login -a api.run.pivotal.io -u demo3@johnfunk.com -o Channel -s Denver-CloudBrews
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 ```
 
