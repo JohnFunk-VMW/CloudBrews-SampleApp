@@ -66,18 +66,19 @@ Next you will use Blue/Green deployment style to deploy a new version of the app
 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppBlueGreen2.png "Read about Blue/Green Deployment") 
 
-
-**TBD**
-- [ ] need to provision a database for the CloudBrews environment.  You were out of database instances.
-
-**after binding a db to it**
-```
-cf restage attendees
-```
-
-**push version 2 with the same route**
+## Push version 2 of the app
+Next we will push the same application to Pivotal Cloud Foundry using a different name
 ```
 cf push attendees-v2 -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 ```
+## Map a Route in Pivotal Cloud Foundry's Load Balancer 
+The next step is to map a route in Pivotal Cloud Foundry's load balancer to point to both applicaitons at the same time.  To do this follow the steps in the following sequence of screen shots:
+
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
+
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
+
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute1.png "Get the V1's route") 
+
 
 **copy the route from V1 to V2, scale down V1**
