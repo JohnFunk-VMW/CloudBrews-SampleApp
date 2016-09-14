@@ -4,8 +4,7 @@
 In this excercise you will work with an already compleated sample applicaitons to learn more about cloud foundry.   Using the pre-built sample app you will do the following:  
   * Push the applicaiton to Pivotal Cloud Foundry
   * Scale the applicaiton so there are multiple instances running, and see how this make it fault tollerant
-  * Make the app adhear to the 12 Factor design methodology by making the app store its state in a backing store rather than keeping it in the application context.
-  * Blue-Green deploy a second copy of the applicaiton, by winding up instances of the new version, while winding down instances of the old version.
+   * Blue-Green deploy a second copy of the applicaiton, by winding up instances of the new version, while winding down instances of the old version.
 
 ## Setup
 Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it. 
@@ -61,7 +60,12 @@ Next you will scale the application up, to do that go back to the Pivotal Cloud 
 Then return to the application tab in the browser and look at the load test.  It should show you are running 2 instances of the app. 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen4.png "Scale the App on PCF") 
 
-**scale it, kill it**
+## Blue/Green Deployment 
+Next you will use Blue/Green deployment style to deploy a new version of the application.  To learn more about Blue/Green Deployment read the description provided in the application. Following the steps below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppBlueGreen1.png "Switch to blue/green page") 
+
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppBlueGreen2.png "Read about Blue/Green Deployment") 
+
 
 **TBD**
 - [ ] need to provision a database for the CloudBrews environment.  You were out of database instances.
