@@ -59,7 +59,7 @@ Next you will scale the application up, to do that go back to the Pivotal Cloud 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen3.png "Scale the App on PCF") 
 
 Then return to the application tab in the browser and look at the load test.  It should show you are running 2 instances of the app. 
-![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen3.png "Scale the App on PCF") 
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen4.png "Scale the App on PCF") 
 
 **scale it, kill it**
 
