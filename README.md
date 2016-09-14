@@ -23,6 +23,7 @@ git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 
 ##Build the project
 ```
+cd CloudBrews-SampleApp
 mvn install
 ```
 
