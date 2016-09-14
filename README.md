@@ -4,7 +4,7 @@
 In this excercise you will work with an already compleated sample applicaitons to learn more about cloud foundry.   Using the pre-built sample app you will do the following:  
   * Push the applicaiton to Pivotal Cloud Foundry
   * Scale the applicaiton so there are multiple instances running, and see how this make it fault tollerant
-   * Blue-Green deploy a second copy of the applicaiton, by winding up instances of the new version, while winding down instances of the old version.
+  * Blue-Green deploy a second copy of the applicaiton, by winding up instances of the new version, while winding down instances of the old version.
 
 ## Setup
 Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it. 
