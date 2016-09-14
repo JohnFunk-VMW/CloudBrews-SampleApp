@@ -35,10 +35,16 @@ cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 
 ## Login to Cloud Foundry
 Open cloud foundry in a browser by visiting:  http://run.pivotal.io  
-   *username: demo3@johnfunk.com  
-   *password:  ask one of the helpers  
+   * username: demo3@johnfunk.com  
+   * password:  ask one of the helpers  
 
- 
+##Navigate to the Application in Pivotal Cloud Foundry
+First click on the 'Denver-CloudBrews' space as shown below:
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundrySpace.png "Space view on PCF")  
+
+Next click on the link under the ROUTE lable as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundryApps.png "Apps view on PCF") 
+
  
 ## View the sample application in a browser
 Open the following link in a browser: http://run.pivotal.io
