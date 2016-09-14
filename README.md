@@ -60,6 +60,12 @@ Next you will scale the application up, to do that go back to the Pivotal Cloud 
 Then return to the application tab in the browser and look at the load test.  It should show you are running 2 instances of the app. 
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppScreen4.png "Scale the App on PCF") 
 
+
+## Kill one of the instances
+To see the fault tollerance capabilities of Pivotal Cloud Foundry you'll use the kill button that is built into the app which simply terminates it.   When you do this with the load test running you'll see one of the instances stop, and after some time it will restart.  The steps to do this are shown on the screenshot below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppKill.png "Scale the App on PCF") 
+
+
 ## Blue/Green Deployment 
 Next you will use Blue/Green deployment style to deploy a new version of the application.  To learn more about Blue/Green Deployment read the description provided in the application. Following the steps below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppBlueGreen1.png "Switch to blue/green page") 
