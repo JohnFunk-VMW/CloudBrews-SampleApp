@@ -1,0 +1,8 @@
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/DummyDataCLR.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/client/ui/controller/AttendeeService.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/client/model/PagedAttendees.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/client/model/Attendee.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/server/model/Attendee.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/server/repo/AttendeeRepository.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/client/ui/controller/AttendeeController.java
+/Users/johnfunk/Documents/Code/CloudBrews-SampleApp/src/main/java/io/pivotal/pcf/sme/ers/PcfErsDemo1Application.java
