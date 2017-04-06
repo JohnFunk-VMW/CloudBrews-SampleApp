@@ -1,8 +1,0 @@
-io/pivotal/pcf/sme/ers/client/model/Attendee.class
-io/pivotal/pcf/sme/ers/server/repo/AttendeeRepository.class
-io/pivotal/pcf/sme/ers/client/ui/controller/AttendeeService.class
-io/pivotal/pcf/sme/ers/client/ui/controller/AttendeeController.class
-io/pivotal/pcf/sme/ers/client/model/PagedAttendees.class
-io/pivotal/pcf/sme/ers/server/model/Attendee.class
-io/pivotal/pcf/sme/ers/DummyDataCLR.class
-io/pivotal/pcf/sme/ers/PcfErsDemo1Application.class
