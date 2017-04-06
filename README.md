@@ -1,33 +1,42 @@
 # Station 3 - Sample App
 
-##Introduction
+## Introduction
 In this exercise you will work with an already completed sample application to learn more about Cloud Foundry.   Using the pre-built sample app you will do the following:  
-  * Push the application to Pivotal Cloud Foundry
-  * Scale the application so there are multiple instances running, and see how this makes it fault tolerant
-  * Blue-Green deploy a second copy of the application, by winding up instances of the new version, while winding down instances of the old version.
+ ** Push the application to Pivotal Cloud Foundry
+ ** Scale the application so there are multiple instances running, and see how this makes it fault tolerant
+ ** Blue-Green deploy a second copy of the application, by winding up instances of the new version, while winding down instances of the old version.
 
 ## Setup
-Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it.
-```
-cd ~
-rm -rf sampleapp
-mkdir sampleapp
-cd sampleapp
-```
+We have setup two options for this lab.  One is for people who have a java development tools installed on their laptop and the other is for people who do not have development tool.
 
-## Download the sample application from Github
+## Setup for People with Java Development Tools
+Required pre-requisit tools include:
+   Github, Maven, JDK 1.8
+   
+### Step 1 - Download the Cloud Foundry CLI
+Mac: 
+  Download the OS X installer from https://cli.run.pivotal.io/stable?release=macosx64&source=github
+
+Windows:  
+   https://cli.run.pivotal.io/stable?release=windows64&source=github
+
+For other options see the full Cloud Foundry CLI documentaiton is at:  https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
+
+### Download the sample application from Github
 ```
 git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 ```
 
 
-##Build the project
+## Build the project
 ```
 cd CloudBrews-SampleApp
 mvn install
 ```
+## Setup for People with Java Development Tools
 
-##Push the sample application to PCF
+
+## Push the sample application to PCF (everyone)
 ```
 cf login -a api.run.pivotal.io -u demo3@johnfunk.com -o Channel -s Denver-CloudBrews
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
@@ -35,8 +44,8 @@ cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 
 ## Login to Cloud Foundry
 Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io  
-   * username: demo3@johnfunk.com  
-   * password:  ask one of the helpers  
+** username: demo3@johnfunk.com  
+** password:  ask one of the helpers  
 
 ##Navigate to the Application in Pivotal Cloud Foundry
 First click on the 'Denver-CloudBrews' space as shown below:
