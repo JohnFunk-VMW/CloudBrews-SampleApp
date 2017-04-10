@@ -11,14 +11,17 @@ We have setup two options for this lab.  One is for people who have a java devel
 
 ## Common Setup for Everyone
 ### Step 1 - Sign-up for a free account on run.pvitoal.io 
-### Step 2 - Have the presentor add your account to the environment established for the event.
+   ![run.pivotal.io](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/PWSMainPage.png "run.pivotal.io")
+
+### Step 2 - Have the presenter add your account to the environment established for the event.
   For the Santa Monica event, just come talk to the team and we'll add your account to the environment
   
 ## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
-   Github, Maven, JDK 1.8
-   ![run.pivotal.io](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/PWSMainPage.png "run.pivotal.io")
-
+   * Github
+   * Maven
+   * JDK 1.8
+   * Code Editor
 
 ### Step 1 - Download the Cloud Foundry CLI
 Mac: 
@@ -36,7 +39,6 @@ For other options see the full Cloud Foundry CLI documentaiton is at:  https://d
 git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 ```
 
-
 ## Build the project
 ```
 cd CloudBrews-SampleApp
@@ -53,11 +55,9 @@ Windows:
   Download the Windows installer from:
    https://cli.run.pivotal.io/stable?release=windows64&source=github
 
-
 ### Download the sample application .Zip file
   Download a zip file with the sample applicaiton from Github:
     https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/archive/master.zip
-
 
 ## Push the sample application to PCF (everyone)
 Open a terminal window or command prompt and navigate to the directory containing the sample application.
@@ -69,11 +69,11 @@ cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 
 ## Login to Cloud Foundry
 Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io  
-** username: demo3@johnfunk.com  
-** password:  ask one of the helpers  
+** username: your login  
+** password: your password  
 
 ##Navigate to the Application in Pivotal Cloud Foundry
-First click on the 'Denver-CloudBrews' space as shown below:
+First click on the 'ReplatformingWorkshop' space as shown below:
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
 Next click on the name of the "attendees" app shown below:
