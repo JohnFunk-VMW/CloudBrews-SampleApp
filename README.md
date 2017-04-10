@@ -34,13 +34,14 @@ Required pre-requisit tools include:
 * For other options see the full Cloud Foundry CLI documentaiton is at:  https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
 
 ### Download the sample application from Github
+* Create a directory to hold the sample app and change into that directory
 ```
 git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 ```
 
 ## Build the project
 ```
-cd CloudBrews-SampleApp
+cd <Directory containing the files for the sample app>
 mvn install
 ```
 ## Setup for People without Java Development Tools
@@ -53,13 +54,14 @@ mvn install
    https://cli.run.pivotal.io/stable?release=windows64&source=github
 
 ### Download the sample application .Zip file
-  Download a zip file with the sample applicaiton from Github:
+  * Download a zip file with the sample applicaiton from Github:
     https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/archive/master.zip
+  * Unzip the file and take note of where the files are located.
 
 ## Login and Push the sample application to PCF (everyone)
 Open a terminal window or command prompt and navigate to the directory containing the sample application.
 ```
-cd <Directory Containing your zip file>
+cd <Directory Containing your expanded zip file>
 cf login -a api.run.pivotal.io -u <your-username> -o ReplatformingWorkshop -s <your-space>
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 ```
