@@ -17,7 +17,7 @@ We have setup two options for this lab.  One is for people who have a java devel
 ## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
    Github, Maven, JDK 1.8
-
+   ![run.pivotal.io](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/PWSMainPage.png "run.pivotal.io")
 
 
 ### Step 1 - Download the Cloud Foundry CLI
