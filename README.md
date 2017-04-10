@@ -2,22 +2,24 @@
 
 ## Introduction
 In this exercise you will work with an already completed sample application to learn more about Cloud Foundry.   Using the pre-built sample app you will do the following:  
- ** Push the application to Pivotal Cloud Foundry
- ** Scale the application so there are multiple instances running, and see how this makes it fault tolerant
- ** Blue-Green deploy a second copy of the application, by winding up instances of the new version, while winding down instances of the old version.
+ * Push the application to Pivotal Cloud Foundry
+ * Scale the application so there are multiple instances running, and see how this makes it fault tolerant
+ * Blue-Green deploy a second copy of the application, by winding up instances of the new version, while winding down instances of the old version.
 
 ## Setup
 We have setup two options for this lab.  One is for people who have a java development tools installed on their laptop and the other is for people who do not have development tool.
 
-## Setup for People with Java Development Tools
+## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
    Github, Maven, JDK 1.8
    
 ### Step 1 - Download the Cloud Foundry CLI
 Mac: 
-  Download the OS X installer from https://cli.run.pivotal.io/stable?release=macosx64&source=github
+  Download the OS X installer from
+   https://cli.run.pivotal.io/stable?release=macosx64&source=github
 
 Windows:  
+  Download the Windows installer from:
    https://cli.run.pivotal.io/stable?release=windows64&source=github
 
 For other options see the full Cloud Foundry CLI documentaiton is at:  https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
@@ -33,11 +35,27 @@ git clone https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp
 cd CloudBrews-SampleApp
 mvn install
 ```
-## Setup for People with Java Development Tools
+## Setup for People without Java Development Tools
+
+### Step 1 - Download the Cloud Foundry CLI
+Mac: 
+  Download the OS X installer from
+   https://cli.run.pivotal.io/stable?release=macosx64&source=github
+
+Windows:  
+  Download the Windows installer from:
+   https://cli.run.pivotal.io/stable?release=windows64&source=github
+
+
+### Download the sample application .Zip file
+  Download a zip file with the sample applicaiton from Github:
+    https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/archive/master.zip
 
 
 ## Push the sample application to PCF (everyone)
+Open a terminal window or command prompt and navigate to the directory containing the sample application.
 ```
+cd <Directory Containing your zip file>
 cf login -a api.run.pivotal.io -u demo3@johnfunk.com -o Channel -s Denver-CloudBrews
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 ```
