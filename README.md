@@ -25,15 +25,15 @@ Required pre-requisit tools include:
    * Code Editor
 
 ### Step 1 - Download the Cloud Foundry CLI
-Mac: 
+* Mac: 
   Download the OS X installer from
    https://cli.run.pivotal.io/stable?release=macosx64&source=github
 
-Windows:  
+* Windows:  
   Download the Windows installer from:
    https://cli.run.pivotal.io/stable?release=windows64&source=github
 
-For other options see the full Cloud Foundry CLI documentaiton is at:  https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
+* For other options see the full Cloud Foundry CLI documentaiton is at:  https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
 
 ### Download the sample application from Github
 ```
@@ -48,11 +48,11 @@ mvn install
 ## Setup for People without Java Development Tools
 
 ### Step 1 - Download the Cloud Foundry CLI
-Mac: 
+* Mac: 
   Download the OS X installer from
    https://cli.run.pivotal.io/stable?release=macosx64&source=github
 
-Windows:  
+* Windows:  
   Download the Windows installer from:
    https://cli.run.pivotal.io/stable?release=windows64&source=github
 
