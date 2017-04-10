@@ -71,8 +71,8 @@ cf login -a api.run.pivotal.io -u <your-username>
 
 ## Login to Cloud Foundry
 Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io  
-** username: your login  
-** password: your password  
+** username: <your login>  
+** password: <your password>  
 
 ##Navigate to the Application in Pivotal Cloud Foundry
 First click on the 'ReplatformingWorkshop' space as shown below:
