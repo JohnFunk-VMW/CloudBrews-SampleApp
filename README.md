@@ -9,10 +9,17 @@ In this exercise you will work with an already completed sample application to l
 ## Setup
 We have setup two options for this lab.  One is for people who have a java development tools installed on their laptop and the other is for people who do not have development tool.
 
+## Common Setup for Everyone
+### Step 1 - Sign-up for a free account on run.pvitoal.io 
+### Step 2 - Have the presentor add your account to the environment established for the event.
+  For the Santa Monica event, just come talk to the team and we'll add your account to the environment
+  
 ## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
    Github, Maven, JDK 1.8
-   
+
+
+
 ### Step 1 - Download the Cloud Foundry CLI
 Mac: 
   Download the OS X installer from
