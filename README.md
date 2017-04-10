@@ -10,11 +10,12 @@ In this exercise you will work with an already completed sample application to l
 We have setup two options for this lab.  One is for people who have a java development tools installed on their laptop and the other is for people who do not have development tool.
 
 ## Common Setup for Everyone
-### Step 1 - Sign-up for a free account on run.pvitoal.io 
+### Step 1 - Sign-up for a free account at http://run.pvitoal.io 
    ![run.pivotal.io](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/PWSMainPage.png "run.pivotal.io")
 
 ### Step 2 - Have the presenter add your account to the environment established for the event.
-  For the Santa Monica event, just come talk to the team and we'll add your account to the environment
+  For the Santa Monica event, just come talk to the team and we'll add your account to the environment.
+  NOTE: If you are following these instructions but not attending a workshop, you can simply use your own run.pivotal.io environment by following the suplimental instructions during the labs.
   
 ## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
@@ -59,12 +60,17 @@ Windows:
   Download a zip file with the sample applicaiton from Github:
     https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/archive/master.zip
 
-## Push the sample application to PCF (everyone)
+## Login and Push the sample application to PCF (everyone)
 Open a terminal window or command prompt and navigate to the directory containing the sample application.
 ```
 cd <Directory Containing your zip file>
-cf login -a api.run.pivotal.io -u demo3@johnfunk.com -o Channel -s Denver-CloudBrews
+cf login -a api.run.pivotal.io -u <your-username> -o ReplatformingWorkshop -s <your-space>
 cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
+```
+If you aren't part of one of our workshops you'll have to login to your own org and space on run.pivotal.io with a default login:
+```
+cf login -a api.run.pivotal.io -u <your-username>
+
 ```
 
 ## Login to Cloud Foundry
