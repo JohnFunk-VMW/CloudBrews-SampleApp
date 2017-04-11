@@ -78,6 +78,10 @@ Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io
 
 ##Navigate to the Application in Pivotal Cloud Foundry
 First click on the 'ReplatformingWorkshop' space as shown below:
+![CloudFoundryOrg](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundryOrg.png "Org view on PCF")
+
+Next click into your space.  Note this is the space assigned by the presenter.  Or if you are doing this on your own click into the "development" space.
+
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
 Next click on the name of the "attendees" app shown below:
