@@ -63,7 +63,7 @@ Open a terminal window or command prompt and navigate to the directory containin
 ```
 cd <Directory Containing your expanded zip file>
 cf login -a api.run.pivotal.io -u <your-username> -o ReplatformingWorkshop -s <your-space>
-cf push attendees -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
+cf push attendees
 ```
 If you aren't part of one of our workshops you'll have to login to your own org and space on run.pivotal.io with a default login:
 ```
