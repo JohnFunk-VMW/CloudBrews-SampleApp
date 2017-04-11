@@ -140,7 +140,7 @@ Map a new route by pasting in the route you copied from V1 of the app, and click
 Return to the application window in the browser and start the simulation.  This will show the load is being balanced between the two versions of the application.
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/SampleAppMapRoute6.png "Get the V1's route")
 
-##Scale down V1 of the application
+## Scale down V1 of the application
 When you are satisfied that V2 of the application is running correctly we can stop V1 of the application gracefully.   In this case we are simply going to stop it, but in real life we would scale it down gracefully.
 ```
 cf stop attendees
