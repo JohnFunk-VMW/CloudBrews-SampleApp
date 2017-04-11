@@ -118,7 +118,7 @@ Next you will use Blue/Green deployment style to deploy a new version of the app
 ## Push version 2 of the app
 Next we will push the same application to Pivotal Cloud Foundry using a different name
 ```
-cf push attendees-v2 -p target/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
+cf push attendees-v2 -p target/pcf-ers-demo1-0.0.1.jar
 ```
 ## Map a Route in Pivotal Cloud Foundry's Load Balancer
 The next step is to map a route in Pivotal Cloud Foundry's load balancer to point to both applications at the same time.  To do this, follow the steps in the following sequence of screen shots:
