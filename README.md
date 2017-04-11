@@ -16,7 +16,7 @@ We have setup two options for this lab.  One is for people who have a java devel
 ### Step 2 - Have the presenter add your account to the environment established for the event.
   For the Santa Monica event, just come talk to the team and we'll add your account to the environment and we will provide you with a space to work in.
   
-  NOTE: If you are following these instructions but not attending a workshop, you can simply use your own run.pivotal.io environment by following the suplimental instructions during the labs.
+  NOTE: If you are following these instructions but not attending a workshop, you can simply use your own run.pivotal.io environment by following the suplimental instructions.
   
 ## Setup for People with a Functioning Java Development Environment
 Required pre-requisit tools include:
