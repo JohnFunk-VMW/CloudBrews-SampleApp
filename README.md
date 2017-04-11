@@ -14,7 +14,8 @@ We have setup two options for this lab.  One is for people who have a java devel
    ![run.pivotal.io](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/PWSMainPage.png "run.pivotal.io")
 
 ### Step 2 - Have the presenter add your account to the environment established for the event.
-  For the Santa Monica event, just come talk to the team and we'll add your account to the environment.
+  For the Santa Monica event, just come talk to the team and we'll add your account to the environment and we will provide you with a space to work in.
+  
   NOTE: If you are following these instructions but not attending a workshop, you can simply use your own run.pivotal.io environment by following the suplimental instructions during the labs.
   
 ## Setup for People with a Functioning Java Development Environment
