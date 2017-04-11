@@ -150,7 +150,7 @@ cf stop attendees
 Congratulations you pushed a sample application to Pivotal Cloud Foundry, Scaled it up, and upgraded it to V2 by using Blue/Green deployment.  Talk to the helper at the station to see what's next!
 
 ## Credits
-I want to thank my tallented collegue Marcelo Borges  https://www.linkedin.com/in/marcelomborges/ for the use of his great sample application.   This little app allows us to explore many aspects of Pivotal Cloud Foundry in a very clear and concise way.
+I want to thank my talented colleague Marcelo Borges  https://www.linkedin.com/in/marcelomborges/ for the use of his great sample application.   This little app allows us to explore many aspects of Pivotal Cloud Foundry in a very clear and concise way.
 
 ## Feedback
 Please help us improve in the future by giving us feedback on this exercise: [Feedback](http://pivotal.DSUW.sgizmo.com/s3/?station=3)
