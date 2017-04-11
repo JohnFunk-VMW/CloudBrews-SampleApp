@@ -76,7 +76,7 @@ Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io
 ** username: your-login  
 ** password: your-password  
 
-##Navigate to the Application in Pivotal Cloud Foundry
+## Navigate to the Application in Pivotal Cloud Foundry
 First click on the 'ReplatformingWorkshop' space as shown below:
 ![CloudFoundryOrg](https://github.com/JohnFunk-Pivotal/CloudBrews-SampleApp/blob/master/CloudFoundryOrg.png "Org view on PCF")
 
